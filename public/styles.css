@@ -1,0 +1,156 @@
+header {
+  background-color: #320e3b;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  animation: fadeIn ease 1s;
+}
+
+header h1 {
+  color: #bcedf6;
+  font-family: "Caveat", cursive;
+  font-weight: 200;
+  font-size: 4rem;
+  animation-duration: 2s;
+  animation-name: slidein;
+  padding-left: 50px;
+}
+
+html {
+  background-color: #edfdff;
+}
+.cr {
+  background-color: #edfdff;
+  padding-bottom: 50px;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.textValue {
+  resize: none;
+  overflow: auto;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  animation: fadeIn ease 4s;
+  background-color: #bcedf6;
+}
+
+.textValue:focus {
+  border-color: #320e3b;
+  border-width: 2.5px;
+}
+.fade-in {
+  animation: fadeIn ease 20s;
+  -webkit-animation: fadeIn ease 20s;
+  -moz-animation: fadeIn ease 20s;
+  -o-animation: fadeIn ease 20s;
+  -ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.button {
+  margin-top: 30px;
+  background-color: #320e3b;
+  color: #bcedf6;
+  border-radius: 25px;
+  font-size: 25px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 5px 30px 5px 30px;
+  animation: fadeIn ease 4s;
+  transition: all 0.2s;
+  margin-left: 640px;
+  font-family: "Montserrat", sans-serif;
+}
+.button:hover {
+  border-width: 3px;
+  border-color: #bcedf6;
+}
+
+.col-sm {
+  padding-top: 40px;
+  margin-left: 400px;
+}
+.details {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+  color: #320e3b;
+  padding-bottom: 10px;
+}
+.footer {
+  height: 100px;
+}
+
+.img1 {
+  width: 40px;
+  margin-left: 300px;
+  animation: fadeIn ease 4s;
+  transition: all 0.2s;
+}
+.img1:hover {
+  width: 60px;
+}
+
+.img2 {
+  width: 60px;
+  margin-left: 650px;
+  animation: fadeIn ease 4s;
+  transition: all 0.2s;
+}
+.img2:hover {
+  width: 80px;
+}

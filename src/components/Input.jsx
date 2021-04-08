@@ -18,7 +18,7 @@ function Input() {
   let chars = inpText.length;
   let wordLength = textList.length;
   let readingTime = Math.round((textList.length / 200) * 60);
-  let medianLength = textList[Math.floor(textList.length / 2)];
+  let medianLength = textList[Math.floor(textList.length / 2)].length;
   let commonWordsArr = commonWords();
   let str = " ";
   function handleChange(event) {
@@ -168,7 +168,7 @@ function Input() {
         Reading time in seconds: <strong>{readingTimeSecs}</strong>
       </h3>
       <h3 className="details">
-        Median Word Length: <strong>{medianSortLength}</strong>
+        Median Word Length: <strong>{medianLength}</strong>
       </h3>
       <h3 className="details">
         Median word when sorted by length: <strong>{medianSortLength}</strong>

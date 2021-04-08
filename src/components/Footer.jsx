@@ -6,7 +6,7 @@ function Footer() {
         <img
           className="img1"
           alt="linkedInImg"
-          src="https://www.iconsdb.com/icons/preview/white/linkedin-xxl.png"
+          src="https://i.imgur.com/RAVazTT.png"
         />
       </a>
       <a href="https://github.com/MohamedWasimMohamedAkram">
